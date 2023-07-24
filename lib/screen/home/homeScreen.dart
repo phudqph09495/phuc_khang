@@ -466,8 +466,9 @@ class _HomeScreenState extends State<HomeScreen> {
                                                               ColorApp
                                                                   .black00,
                                                               fontSize: 16),),
+                                                          SizedBox(height: 5,),
                                                           Text(
-                                                            'Giá bán: ${Const.convertPrice('${list[index].customerPrice!.price}')}đ',
+                                                            'Giá thùng: ${Const.convertPrice('${list[index].customerPrice!.price}')}đ',
                                                             style: StyleApp
                                                                 .textStyle600(
                                                                     color:

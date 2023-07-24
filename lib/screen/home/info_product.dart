@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_html/flutter_html.dart';
 import 'package:flutter_image_slideshow/flutter_image_slideshow.dart';
-import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:intl/intl.dart';
@@ -27,7 +26,6 @@ import '../../widget/app_bar.dart';
 import '../../widget/item/input/text_filed.dart';
 import '../../widget/item/load_image.dart';
 import '../account/login_screen.dart';
-import 'package:share_plus/share_plus.dart';
 
 class InfoProductScreen extends StatefulWidget {
   String id;
@@ -269,7 +267,7 @@ class _InfoProductScreenState extends State<InfoProductScreen>
                               Row(
                                 children: [
                                   Text(
-                                    'Giá bán: ${Const.convertPrice('${model.product!.customerPrice!.price}')}đ',
+                                    'Giá thùng: ${Const.convertPrice('${model.product!.customerPrice!.price}')}đ',
                                     style: StyleApp.textStyle600(
                                         color: ColorApp.red, fontSize: 16),
                                   ),

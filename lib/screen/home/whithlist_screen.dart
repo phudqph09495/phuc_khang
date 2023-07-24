@@ -154,7 +154,7 @@ class _GioHangScreenState extends State<GioHangScreen> {
                                         CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Giá bán: ${Const.ConvertPrice.format(int.parse('${listInfo[index].product!.customerPrice!.price}'))} đ',
+                                            'Giá thùng: ${Const.ConvertPrice.format(int.parse('${listInfo[index].product!.customerPrice!.price}'))} đ',
                                             style: StyleApp.textStyle600(
                                                 color: ColorApp.dark500,
                                                 fontSize: 14),

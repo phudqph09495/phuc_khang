@@ -157,7 +157,7 @@ class _SearchScreenState extends State<SearchScreen> {
                                           children: [
                                             Text(
 
-                                              'Giá bán: ${Const.convertPrice('${list.products![index].customerPrice!.price}')}đ',
+                                              'Giá thùng: ${Const.convertPrice('${list.products![index].customerPrice!.price}')}đ',
                                               style: StyleApp.textStyle600(
                                                   color: ColorApp.redText, fontSize: 16),
                                             ),
